@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content:center;
+}
+.largebox{
+    position: absolute;
+    top: 50%;
+    margin-top: -250px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.box_up{
+    height: 200px;
+    width: 50%;
+    border: 1px solid black;
+}
+.box_down{
+    height: 300px;
+    width: 33.33%;
+    border: 1px solid black;
+}
+.box_1{
+ background: darkgreen;
+}
+.box_2{
+    background: blue;
+}
+.box_3{
+    background: gray;
+}
+.box_4{
+    background: black;
+}
+.box_5{
+    background: yellow;
+}
